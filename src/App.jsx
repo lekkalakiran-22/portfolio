@@ -5,9 +5,9 @@ import Skills from "./skills";
 import Hello from "./hello";
 import Contact from "./contact";
 import Footer from "./footer";
-import "./app.css";
+import "./App.css";
 import Certificates from "./certificates";
-import SkillProgress from "./skillProgress";
+//import SkillProgress from "./skillProgress";
 import Projects from "./project";
 
 
