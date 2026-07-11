@@ -40,7 +40,7 @@ function Hero() {
      <MdWork /> Hire Me
     </button>
 <a
-  href="/Lekkala_Kiran.docx"
+  href="/Kiran_Resume.pdf"
   download
 >
   <button className="resume-btn">
