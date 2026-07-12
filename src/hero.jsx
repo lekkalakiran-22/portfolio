@@ -13,6 +13,9 @@ function Hero() {
     <div className="hero">
 
       <div className="hero-content">
+        <span className="hero-badge">
+  🚀 Open to Internships & Full-Time Opportunities
+</span>
         <h1>Hi, I'm Kiran</h1>
 
         <TypeAnimation
@@ -39,17 +42,14 @@ function Hero() {
            onClick={handleHireMe}>
      <MdWork /> Hire Me
     </button>
-<a
-  href="/Kiran_Resume.pdf"
-  download
->
-  <button className="resume-btn">
+     <a href="/Kiran_Resume.pdf" 
+    download 
+></a>
+   < button className ="resume-btn">
     <FaDownload /> Resume
-  </button>
-</a>
+   </button>
         </div>
-      </div>
-
+</div>
       <div className="hero-image">
         <img src="/photo.png" alt="profile" />
       </div>
