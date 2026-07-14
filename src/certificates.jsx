@@ -1,7 +1,7 @@
 function Certificates() {
   return (
     <section id="certificates">
-      <h2 className="section-title">My Certificates</h2>
+      <h2 className="section-title">Certificates</h2>
 
       <div className="certificate-container">
 

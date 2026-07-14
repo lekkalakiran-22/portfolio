@@ -24,8 +24,6 @@ function Hero() {
             2000,
             "Full Stack Developer",
             2000,
-            "Prompt Engineer",
-            2000, 
           ]}
           wrapper="h2"
           speed={50}

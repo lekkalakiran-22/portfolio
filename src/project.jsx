@@ -1,54 +1,58 @@
+import "./App.css";
+
 function Projects() {
-  const projects = [
-    {
-      title: "Portfolio Website",
-      tech: "React, CSS",
-      description:
-        "Personal portfolio website showcasing my skills, projects, and certificates.",
-      github: "https://github.com/yourusername/portfolio",
-    },
-
-    {
-      title: "MERN E-Commerce App",
-      tech: "React, Node.js, Express, MongoDB",
-      description:
-        "Full-stack e-commerce application with authentication and shopping cart.",
-      github: "https://github.com/yourusername/ecommerce",
-    },
-
-    {
-      title: "To-Do List App",
-      tech: "React, JavaScript",
-      description:
-        "Task management application with add, edit, and delete features.",
-      github: "https://github.com/yourusername/todo-app",
-    },
-  ];
-
   return (
     <section id="projects">
-      <h2 className="section-title">My Projects</h2>
+      <h2>My Projects</h2>
 
-      <div className="project-container">
-        {projects.map((project, index) => (
-          <div className="project-card" key={index}>
-            <h3>{project.title}</h3>
+      <div className="projects-container">
 
-            <p>
-              <strong>Tech Stack:</strong> {project.tech}
+        {/* Project 1 */}
+        <div className="project-card">
+          <img src="/projects/portfolio.png" alt="Portfolio" />
+
+          <div className="project-content">
+            <h3>Portfolio Website</h3>
+
+            <p className="tech-stack">
+              • React.js • CSS • EmailJS
             </p>
 
-            <p>{project.description}</p>
-
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Project
-            </a>
+            <div className="project-buttons">
+              <a
+                href="https://portfolio-six-ruddy-52.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/lekkalakiran-22/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
-        ))}
+        </div>
+
+        {/* Project 2 */}
+        <div className="project-card">
+          <img src="/projects/weather.png" alt="Rain Alert Engine" />
+
+          <div className="project-content">
+            <h3>Rain Alert Engine</h3>
+
+            <p className="tech-stack">
+              • React • CSS •OpenWeatherAPI
+            </p>
+            <div className="project-buttons">
+              <a href="https://rain-alert-engine.vercel.app/">Live Demo</a>
+              <a href="https://github.com/lekkalakiran-22/rain-alert-engine">GitHub</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
