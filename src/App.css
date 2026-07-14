@@ -93,16 +93,42 @@ section {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(59,130,246,0.4);
 }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #111827;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.logo {
+  font-size: 3rem;
+  color: #5b21b6;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 nav {
   display: flex;
-  justify-content: center;
-  gap: 25px;
-  font-size: 18px;
+  gap: 40px;
 }
 
 nav a {
-  text-decoration: none;
   color: orangered;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #2538e2;
 }
 .about{
   display: flex;

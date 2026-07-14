@@ -22,8 +22,6 @@ function App() {
     //     {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
     //   </button>
 <div>
-  <h1>My Portfolio</h1>
-
       <Navbar />
       <Hero />
 
