@@ -9,6 +9,7 @@ import "./App.css";
 import Certificates from "./certificates";
 //import SkillProgress from "./skillProgress";
 import Projects from "./project";
+import Education from "./Eduacation";
 
 
 function App() {
@@ -24,11 +25,12 @@ function App() {
 <div>
       <Navbar />
       <Hero />
-
       <section id="about">
         <About />
       </section>
-
+      <section id="about">
+        <Education />
+      </section>
       <section id="skills">
         <Skills />
       </section>

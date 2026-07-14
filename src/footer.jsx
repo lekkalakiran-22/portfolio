@@ -8,8 +8,9 @@ function Footer() {
   return (
     <footer className="footer">
       <pre>
-        © 2026  Made with ❤️ by Kiran Lekkala.
+        © 2026 Kiran Lekkala.
       </pre>
+     <p>Built with React.js</p>
 
       <div className="footer-icons">
         <a href="https://github.com/lekkalakiran-22">
