@@ -9,7 +9,7 @@ function Projects() {
 
         {/* Project 1 */}
         <div className="project-card">
-          <img src="/projects/portfolio.png" alt="Portfolio" />
+          <img src="/projects/portfolio.png" alt="Portfolio Website" />
 
           <div className="project-content">
             <h3>Portfolio Website</h3>
@@ -26,6 +26,7 @@ function Projects() {
               >
                 Live Demo
               </a>
+
               <a
                 href="https://github.com/lekkalakiran-22/portfolio"
                 target="_blank"
@@ -45,14 +46,60 @@ function Projects() {
             <h3>Rain Alert Engine</h3>
 
             <p className="tech-stack">
-              • React • CSS •OpenWeatherAPI
+              • React.js • CSS • OpenWeather API
             </p>
+
             <div className="project-buttons">
-              <a href="https://rain-alert-engine.vercel.app/">Live Demo</a>
-              <a href="https://github.com/lekkalakiran-22/rain-alert-engine">GitHub</a>
+              <a
+                href="https://rain-alert-engine.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="https://github.com/lekkalakiran-22/rain-alert-engine"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </div>
+
+        {/* Project 3 */}
+        <div className="project-card">
+          <img src="/projects/calculator.png" alt="Modern Calculator" />
+
+          <div className="project-content">
+            <h3>Modern Calculator</h3>
+
+            <p className="tech-stack">
+              • React.js • JavaScript • CSS3 • Vite
+            </p>
+
+            <div className="project-buttons">
+              <a
+                href="https://calculator-henna-phi-46.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="https://github.com/lekkalakiran-22/calculator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
