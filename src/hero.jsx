@@ -42,7 +42,7 @@ function Hero() {
     </button>
      <a href="/Kiran_Resume.pdf" 
     download 
-></a>
+      />
    < button className ="resume-btn">
     <FaDownload /> Resume
    </button>
