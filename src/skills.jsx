@@ -1,61 +1,66 @@
+import {
+  FaCode,
+  FaLaptopCode,
+  FaServer,
+  FaDatabase,
+  FaRobot,
+  FaTools,
+} from "react-icons/fa";
+
 function Skills() {
+  const skills = [
+    {
+      icon: <FaCode />,
+      title: "Languages",
+      items: ["JavaScript", "Python", "Java"],
+    },
+    {
+      icon: <FaLaptopCode />,
+      title: "Frontend",
+      items: ["HTML5", "CSS3", "React.js"],
+    },
+    {
+      icon: <FaServer />,
+      title: "Backend",
+      items: ["Node.js", "Express.js", "REST APIs"],
+    },
+    {
+      icon: <FaDatabase />,
+      title: "Database",
+      items: ["MongoDB", "SQL"],
+    },
+    {
+      icon: <FaRobot />,
+      title: "AI",
+      items: ["Prompt Engineering", "OpenAI API"],
+    },
+    {
+      icon: <FaTools />,
+      title: "Tools",
+      items: ["Git", "GitHub", "VS Code"],
+    },
+  ];
+
   return (
     <section id="skills">
       <h2>Skills</h2>
 
       <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div className="skill-box" key={index}>
+            <div className="skill-icon">
+              {skill.icon}
+            </div>
 
-        <div className="skill-box">
-          <h3>Languages</h3>
-          <div className="skill-tags">
-            <span>JavaScript</span>
-            <span>Python</span>
-            <span>Java</span>
-          </div>
-        </div>
+            <h3>{skill.title}</h3>
 
-        <div className="skill-box">
-          <h3>Frontend</h3>
-          <div className="skill-tags">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>React.js</span>
+            <div className="skill-tags">
+              {skill.items.map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </div>
           </div>
-        </div>
-
-        <div className="skill-box">
-          <h3>Backend</h3>
-          <div className="skill-tags">
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>REST APIs</span>
-          </div>
-        </div>
-
-        <div className="skill-box">
-          <h3>Database</h3>
-          <div className="skill-tags">
-            <span>MongoDB</span>
-            <span>SQL</span>
-          </div>
-        </div>
-
-        <div className="skill-box">
-          <h3>AI</h3>
-          <div className="skill-tags">
-            <span>Prompt Engineering</span>
-            <span>OpenAI API</span>
-          </div>
-        </div>
-
-        <div className="skill-box">
-          <h3>Tools</h3>
-          <div className="skill-tags">
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>VS Code</span>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
