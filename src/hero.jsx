@@ -39,13 +39,15 @@ function Hero() {
            className="hire-btn"
            onClick={handleHireMe}>
      <MdWork /> Hire Me
-    </button>
-     <a href="/Kiran_Resume.pdf" 
-    download >
-    </a>
-   < button className ="resume-btn">
+     </button>
+    <a
+  href="/Kiran_Resume.pdf"
+  download="Kiran_Resume.pdf"
+>
+  <button className="resume-btn">
     <FaDownload /> Resume
-   </button>
+  </button>
+</a>
         </div>
 </div>
       <div className="hero-image">
