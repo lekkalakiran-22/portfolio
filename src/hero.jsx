@@ -17,7 +17,7 @@ function Hero() {
   🚀 Open to Internships & Full-Time Opportunities
 </span>
         <h1>Hi, I'm Kiran</h1>
-
+        <span className="type-animation">
         <TypeAnimation
           sequence={[
             "MERN Stack Developer",
@@ -29,7 +29,7 @@ function Hero() {
           speed={50}
           repeat={Infinity}
         />
-
+        </span>
         <h5>
           Passionate about building AI-powered and responsive web applications using React.js and modern technologies.
           </h5>
