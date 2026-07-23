@@ -959,3 +959,10 @@ grid-template-columns:repeat(2,320px);
 grid-template-columns:320px;
 }
 }
+@media (max-width:768px){
+
+#education h2{
+    color:#3b82f6 !important;
+}
+
+}
