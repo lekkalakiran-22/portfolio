@@ -216,7 +216,11 @@ max-width:550px;
   }
 }
 /* NAVBAR */
-
+@media (max-width:768px){
+    section h2{
+        color:#3b82f6;
+    }
+}
 .navbar{
     position: fixed;
     top:0;
