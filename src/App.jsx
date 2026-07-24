@@ -41,10 +41,10 @@ function App() {
     <section id="certificates">
         <Certificates />
       </section>  
-
-      <Hello />
-
+   
       <section id="contact">
+        <h3> <i>If you want to contact me, feel free to reach out ! </i>
+        </h3>
         <Contact />
       </section>
 
